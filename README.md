@@ -1,12 +1,5 @@
-|--------------------------|
-|Advanced Paypal IPN GUIDE |
-|--------------------------|
-|    © 2012 Oliver Kuch.   |
-|--------------------------|
+Advanced Paypal IPN Documentation 
 
-|-------------------------|
-|          MODULES        |
-|-------------------------|
 To create a module, simply create a new text .php file with the name of your choice.
 Then create a function with the name of your choice and have what you want run inside of it.
 You can then load the module within config.php.
@@ -26,9 +19,8 @@ This will include the entire paypal IPN variable library.
 
 Any PHP function can be run at all.
 
-|-------------------------|
-|          IPN            |
-|-------------------------|
+IPN
+
 Email Feature in config.php.
 
 Everytime someone purchases something and it communicates with the IPN system, it will send an email if its successful, you can edit this email in config.php.
