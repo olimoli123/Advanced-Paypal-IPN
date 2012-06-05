@@ -29,9 +29,7 @@ Feel free to use any of these variables within your config.php, they are all inc
 https://cms.paypal.com/us/cgi-bin/?cmd=_render-content&content_ID=developer/e_howto_admin_IPNReference
 format : $variablename
 
-|-----------------------------------|
-|         PAYPAL LIBRARY            |
-|-----------------------------------|
+Paypal Library
 
 We have included a paypal library with every single ipn variable.
 To include it write in your php script:
